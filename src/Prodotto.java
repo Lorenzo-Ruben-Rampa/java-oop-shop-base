@@ -9,8 +9,8 @@ public class Prodotto {
    public BigDecimal price;
    public BigDecimal iva = new BigDecimal("0.22").setScale(2, RoundingMode.HALF_UP); // valore di default per l'iva
    public int code;
-   public boolean isAvailable = false; // dichiarazione del campo isAvailable
-
+   public boolean isAvailable = false; 
+   
 // costruttore
     public Prodotto(String name, String description, BigDecimal iva) {
     Random rand = new Random();
